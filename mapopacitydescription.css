@@ -1,0 +1,62 @@
+/* styles.css */
+html, body, #map {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* controls for slider box */
+#opacityControls {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: white;
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.4);
+  font-family: sans-serif;
+  z-index: 1000;
+  line-height: 1.5;
+}
+
+#opacityControls label {
+  font-size: 12px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+#opacityControls input[type="range"] {
+  width: 100%;
+}
+
+#descriptionpqrs h2 {
+  font-family: sans-serif;
+  letter-spacing: .04em;
+}
+
+#descriptionpqrs {
+  position: absolute;
+  top: 340px;
+  right: 10px;
+  width: 150px;
+  padding: 0px 15px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid grey;
+  border-radius: 3px;
+  z-index: 800;
+}
+
+#descriptionpqrs p {
+  font-family: sans-serif;
+  font-size: .9em;
+  line-height: 1.5em;
+}
+
+#descriptionpqrs a {
+  color: #005daa;
+  text-decoration: none;
+}
+
+#descriptionpqrs a:hover {
+  text-decoration: underline;
+}
