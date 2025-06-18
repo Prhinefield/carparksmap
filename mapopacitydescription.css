@@ -20,6 +20,7 @@ html, body, #map {
 }
 
 #opacityControls label {
+  color: black;
   font-size: 12px;
   display: block;
   margin-bottom: 4px;
